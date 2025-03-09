@@ -1,0 +1,53 @@
+PRD (Product Requirements Document) 
+
+* Define Title
+Title : ConBoy Tracking App
+
+(Note : ConBoy is a play of word for Convoy and Callboy)
+
+* Overview & Objectives: Describes the purpose of the project and its goals, providing context for the development team.
+
+A mobile app for real-time tracking of vehicle groups with shared destinations, allowing one organizer to create a convoy that others can join.
+
+* Features & Functionality: Details the features to be included, user stories, and how the product should behave under various scenarios.
+
+Create Convoy: Organizer sets group name, access code, destination, and optional meetup point, then shares a join link. Can copy the link and send via other applications.
+Selecting destination and meetup point should be done thru map interface but can type location name.
+Join Flow: Participants enter the access code and their name via landing page or direct link (no need access code)
+Tracking Interface: Split-screen design with interactive map on top half showing all vehicles' locations
+Distance Table: Bottom half displays pairwise distances between user's vehicle and other convoy members
+Real-time Updates: Continuous location tracking with position refreshes for all participants
+Leave or Delete group : Participants can opt out to leave the group. Organizer can delete a group.
+
+* Define Project vocabulary : define all important terms and words to have a common understanding.
+
+* User Experience (UX) Guidelines: Outlines design considerations and interactions to ensure a seamless and intuitive user experience.
+
+Do not retain personal data.
+No login or account creation requirements.
+Accessing link directly will not need access code, the link should have parameter to pass the access code.
+
+* Show the application flow (use ascii text to visualize)
+
+* List all the pages, describe each pages in details so that it is enough for implementer to know what
+are the elements and position and sizes.
+
+* Technical Requirements: Specifies the technologies, platforms, APIs, and integrations needed to develop the product.
+
+Use Typescript
+Progressive web app.
+Responsive screen layout.
+Use React
+Avoid Expo / Native
+Use vite
+Use tailwind
+Create reusable components.
+Use supabase as backend.
+Use supabase real time subscription.
+Use OpenStreetMap and Leaflet as mapping.
+
+Modular design, separate for per page. Extract all reusable components.
+
+* Acceptance Criteria: Defines clear benchmarks and criteria that each feature must meet to be considered complete.
+
+
