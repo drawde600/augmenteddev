@@ -51,3 +51,14 @@ Modular design, separate for per page. Extract all reusable components.
 * Acceptance Criteria: Defines clear benchmarks and criteria that each feature must meet to be considered complete.
 
 
+-----------------
+Reverse Meta Prompting
+
+Can you give me a detailed "why" information for some of your requirements that it's not fully understood as to
+why these commands are to be followed (what are the consequences if not)?
+
+Now put together a detailed instructive prompt end to end I can provide from the beginning next time that captures this all.
+
+
+
+
